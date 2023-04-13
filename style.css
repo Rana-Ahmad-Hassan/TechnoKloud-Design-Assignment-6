@@ -1,0 +1,42 @@
+#Caption {
+    margin-top: -10%;
+}
+
+.flyer{
+    background-color: #454545;
+    background-image: url('https://th.bing.com/th/id/R.815488dd350eeec4395507485c7a7293?rik=ty5aRYugqN6aLA&pid=ImgRaw&r=0');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.flyers{
+    background-image:  url('assets/Leaf.jpeg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* @media (min-width:264px) and (max-width:764px){
+    .searchMode{
+        width: 100%;
+    }
+} */
+
+
+@media (min-width:760px) and (max-width:1200px){
+    .Right1{ 
+        width: 100%;
+        justify-content: center;
+    }
+    .Right2{
+        width: 100%;
+        margin-top: 100px;
+    }
+    .about1{
+        width: 30%;
+        height: 40%;
+    }
+  .index1{
+    width: 100%;
+    font-weight: 500;
+  }
+}
